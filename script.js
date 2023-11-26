@@ -6,7 +6,7 @@ function HelloWorld() {
 
 // Acima, a declaração de uso de um Webservice e seu consumo; Abaixo, o exemplo de teste e depuração; 
 // Exemplificando, Endpoints são endereços expostos para consumo, SOAP descreve o conteúdo da mensagem; Um protocolo leve que oferece formas de transporte de mensagem 
-// através dos protocolos - Envelopes; Regras de Codificaçã; Convenção; 
+// através dos protocolos - Envelopes; Regras de Codificação; Convenção; 
 // 1 - Definir Estrutura - 2 - Chamadas e respostas de procedimentos - 3 - instâncias - container, docker, nuvem; Cybersegurança é necessária; 
 
 
