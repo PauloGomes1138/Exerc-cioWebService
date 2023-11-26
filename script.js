@@ -45,3 +45,30 @@ describe('Test the root path', () => {
     });
 });
 
+// Hostname - exemplo de apps comunicando-se entre si; Carrinhos de compra é elemento do e-commmerce mas não é um exemplo, apesar da linha de raciocínio ter aproximação;
+// Aproximação com a busca pela requisição de valores e seus respectivos produtos; A compreensão do código é simples, mas a execução é complexa; 
+// Estrutura de repetição e Se a requisição apresenta uma lista em API - interface que comunica tudo em um único local - Numeração em Else não for a mesma dos itens; 
+// Não irá encontrar o elemento da lista da API; 
+
+
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  if (req.url === '/api/products') {
+    const products = [
+      { id: 1, name: 'Product 1' },
+      { id: 2, name: 'Product 2' },
+      { id: 3, name: 'Product 3' }
+    ];
+
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify(products));
+  } else {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not found');
+  }
+});
+
+server.listen(3000, () => {
+  console.log('Server running at http://localhost:3000/');
+});
