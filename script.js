@@ -52,7 +52,7 @@ describe('Test the root path', () => {
 // Estrutura de repetição e e=IF a requisição apresenta uma lista em API - interface que comunica tudo em um único local - Numeração em Else não for a mesma dos itens; 
 // Não irá encontrar o elemento da lista da API; 
 // Para segurança, manter o HTTP sob supervisão de Engenharia de Dados - AWS, PYTHON, MACHINE LEARNING; 
-// A SOFTEX está exigindo um grau muito complexo de interpretação de questões para um nível ainda básico de programação; 
+// A Plataforma da SOFTEX está exigindo um grau muito complexo de interpretação de questões para um nível ainda básico de programação; 
 
 
 const http = require('http');
