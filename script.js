@@ -8,7 +8,8 @@ function HelloWorld() {
 // Exemplificando, Endpoints são endereços expostos para consumo, SOAP descreve o conteúdo da mensagem; Um protocolo leve que oferece formas de transporte de mensagem 
 // através dos protocolos - Envelopes; Regras de Codificação; Convenção; 
 // 1 - Definir Estrutura - 2 - Chamadas e respostas de procedimentos - 3 - instâncias - container, docker, nuvem; Cybersegurança é necessária; 
-
+// Para manutenção continua, identificar os processos entre back-end e front-end pela organização adequada da API e da prestação de serviço; 
+// Ponto 2 da organização: Utilizar 
 
 -----------------------------------------------------------------------
 
@@ -20,8 +21,9 @@ describe('Test the root path', () => {
         const response = await request(app).get('/users');
         expect(response.statusCode).toBe(200);
     }); 
-  // testar o caminho raiz, apresentando um retorno como teste, declarar uma "busca" como requisição de aplicativo, tentando localização o user; Função assíncrona; 
+  // testar apresentando um retorno arrow, declarar uma "busca" como requisição de aplicativo, tentando localização o user; Função assíncrona; 
   // em tese o código deve acompanhar uma Função Promise; 
+  
 
     test('It should respond to the POST method', async () => {
         const response = await request(app).post('/users').send({
@@ -47,8 +49,10 @@ describe('Test the root path', () => {
 
 // Hostname - exemplo de apps comunicando-se entre si; Carrinhos de compra é elemento do e-commmerce mas não é um exemplo, apesar da linha de raciocínio ter aproximação;
 // Aproximação com a busca pela requisição de valores e seus respectivos produtos; A compreensão do código é simples, mas a execução é complexa; 
-// Estrutura de repetição e Se a requisição apresenta uma lista em API - interface que comunica tudo em um único local - Numeração em Else não for a mesma dos itens; 
+// Estrutura de repetição e e=IF a requisição apresenta uma lista em API - interface que comunica tudo em um único local - Numeração em Else não for a mesma dos itens; 
 // Não irá encontrar o elemento da lista da API; 
+// Para segurança, manter o HTTP sob supervisão de Engenharia de Dados - AWS, PYTHON, MACHINE LEARNING; 
+// A SOFTEX está exigindo um grau muito complexo de interpretação de questões para um nível ainda básico de programação; 
 
 
 const http = require('http');
